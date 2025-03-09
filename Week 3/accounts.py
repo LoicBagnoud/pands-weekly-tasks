@@ -30,12 +30,15 @@ encrypted_account_number = "X" * (len(account_number) - 4) + account_number[-4:]
 print(f"Your encrypted account number is: {encrypted_account_number}") 
 
 
-'''
-Currently this program only works with account numbers of any size 
-I imagine that if we want the user to only use 10 digits, we would need an If statement... Something along of the lines
-of If account_number is >10 then print("Please make sure you're imputting a 10 numbered account") or something like this
-'''
+
+# Currently this program only works with account numbers of any size 
+# I imagine that if we want the user to only use 10 digits, we would need an If statement... Something along of the lines
+# of If account_number is >10 then print("Please make sure you're imputting a 10 numbered account") or something like this
+
 # References: 
+
 # Stack overflow discussion on hiding all but the last 4 digits: #https://stackoverflow.com/questions/9730653/is-there-a-better-way-to-mask-a-credit-card-number-in-python
+
 # Concatenate and slicing strings: https://www.w3schools.com/python/python_strings_slicing.asp and https://www.w3schools.com/python/python_strings_concatenate.asp
+
 # Chatgpt for help with correcting my erroneous syntax
