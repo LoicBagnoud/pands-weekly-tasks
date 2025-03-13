@@ -24,16 +24,13 @@ encrypted_account_number = "X" * (len(account_number) - 4) + account_number[-4:]
 # As we can see and my understanding of this is that we have X (the string), multiplied by the length (the length is variable and can be any amount) minus 4 to match the 
 # fact that the last 4 digits must be preserved and not encrypted.
 # We then concatenate with the account number that was inputted but only the last 4 digits, starting from the end until the fourth.
-# I imagine that if we want the user to only use 10 digits, we would need an If statement...  
 
 # Finally, we just print the encrypted_account_number that was defined in the variable above.
 print(f"Your encrypted account number is: {encrypted_account_number}") 
 
 
 
-# Currently this program only works with account numbers of any size 
-# I imagine that if we want the user to only use 10 digits, we would need an If statement... Something along of the lines
-# of If account_number is >10 then print("Please make sure you're imputting a 10 numbered account") or something like this
+# Currently this program only works with account numbers of any size
 
 # References: 
 

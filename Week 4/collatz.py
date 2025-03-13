@@ -20,7 +20,7 @@ while collatz_attempt < 1:
     print("Please make sure you do not use 0 or a negative number. Use a positive number")
     collatz_attempt = int(input("Please input your collatz attempted number: "))
 
-# I had to figure out how check if something was an even number. This helps with that. At first I tried creating multiple alternative variables but I ended up confused with it,
+# I had to figure out how to check if something was an even number. This helps with that. At first I tried creating multiple alternative variables but I ended up confused with it,
 # so I tried just working on the same variable as everything just gets stored in the same place. 
 
 # So basically, if whatever the user input is not 1 (since dividing it by 2 gets you floats and I opted to not work with that) make sure it's an even number and store it
