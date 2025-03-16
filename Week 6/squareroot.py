@@ -59,7 +59,8 @@ print(f"The square root of {final_number} is approx. {newtonsqrt(final_number)}"
 # https://thirumalai2024.medium.com/python-program-to-find-square-root-of-the-number-using-newtons-method-937c0e732756 - The code idea for Newton's method 
 
 # https://www.youtube.com/watch?v=gHL48ePY7lk and ChatGPT - The explanation of Newton's method.
-
-#Prompt used: Can you explain to me in very simple terms what the Newton's square root method is? 
-#             Also, please explain it for someone who does not understand the concept of square roots so that I see the concepts connect.
-
+'''
+ Prompt used: Can you explain to me in very simple terms what the Newton's square root method is? 
+            Also, please explain it for someone who does not understand the concept of square roots so that I see the concepts connect.
+            (Didn't include the full explanation here because it doesn't seem relevant. It was for my own understanding)
+'''

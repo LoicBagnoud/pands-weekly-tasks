@@ -27,7 +27,8 @@ else:
 
 # Confirmed with Chatgpt how we can actually check the system date and time
 # Prompt: The statement datetime.date.today() is what allows us to check for the current date? How does that work?
-
-# Chatgpt answer: datetime.date.today() is a method from Python's built-in datetime module. 
-#                 It returns a date object representing today's date according to your system's local date. 
-#                 This object includes the year, month, and day, which you can then use for further date manipulations or comparisons.
+'''
+ Chatgpt answer: datetime.date.today() is a method from Python's built-in datetime module. 
+                It returns a date object representing today's date according to your system's local date. 
+                This object includes the year, month, and day, which you can then use for further date manipulations or comparisons.
+# '''

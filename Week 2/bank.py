@@ -56,6 +56,7 @@ print(txt)
 # For the prevention of "." and "," I used chatgpt
 # Prompt used -  How can I prevent a user from using dots or commas with an if statement? - Answer: You can check if the user input contains a dot (".") or a comma (","). 
 # If it does, you can print an error message or handle it however you like. Here's a quick example: 
+
 '''
 amount1_str = input('Enter the first amount (in cent): ')
 if '.' in amount1_str or ',' in amount1_str:
