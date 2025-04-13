@@ -57,12 +57,12 @@ plt.show()
 
 # References: 
 
-# ChatGPT - Explanation on h(x)=x3 function 
+# ChatGPT prompt - Explanation on h(x)=x3 function 
 ''''
 Prompt used: Can you explain in very simple terms what does 
 and a plot of the function  h(x)=x3 in the range 0 to 10 means?'
 '''
-# ChatGPT - Explanation of .figure proposal for the second plot
+# ChatGPT prompt - Explanation of .figure proposal for the second plot
 '''
 So would the best plot to show case this be a figure since you have plt.figure? Can't I do a normal histogram? Explain to'
 me the use of .figure
@@ -71,7 +71,5 @@ me the use of .figure
 # https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html - Getting Numpy normal distribution
 
 # https://matplotlib.org/stable/gallery/color/named_colors.html - For colours
-
-# https://medium.com/@brainhj/kde-true-c3d42a0c8ced - For the Seaborn curve code
 
 # https://www.w3schools.com/python/matplotlib_grid.asp - For the plot grids

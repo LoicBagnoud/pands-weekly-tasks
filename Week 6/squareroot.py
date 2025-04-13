@@ -6,7 +6,7 @@ The objective of this program is to take a positive floating-point number as inp
 Author: Loic Bagnoud
 '''
 
-# I found this nifty function that uses the formula that I learned. 
+# I found this nifty function that uses the formula that I learned. Reference at the bottom. I mainly altered the variable names and used division rather than multiplication.
 # You have an initial guess that will take one argument called n and divide it by 2. Afterwards, the result will be the actual Newton formula.
 # Basically, the initial guess + the argument divided by the initial guess and all of that divided by 2. 
 
