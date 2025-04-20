@@ -13,7 +13,7 @@ import datetime
 # with the datetime package.
 today = datetime.date.today()
 
-# Afterwards, created a simple if else statement that prints accordingly, depending if the today is less than 5 (seeing as the weekdays in the package are numbered 
+# Afterwards, created a simple if else statement that prints accordingly, depending if the today variable is less than 5 (seeing as the weekdays in the package are numbered 
 # 0 to 4), then it should print that it is a weekday.
 if today.weekday() < 5:
     print("Yes, unfortunately today is a weekday.")

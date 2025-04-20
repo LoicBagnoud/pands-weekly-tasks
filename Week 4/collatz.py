@@ -12,8 +12,8 @@ Author: Loic Bagnoud
 # The first part is a simple prompt for the user to input their number.
 collatz_attempt = int(input("Please input your collatz attempted number: "))
 
-# I created a list for the collatz calculations to be stored. I will print out this list later on.
-collatz_list = []
+# I created a list for the collatz calculations to be stored. I will print out this list later on. (Made a small correction here to account for the user using 1.)
+collatz_list = [collatz_attempt]
 
 # I created this while loop to make sure that the user does not input a negative nummber or a 0 (since a 0 can't even initiate the loop)
 while collatz_attempt < 1:

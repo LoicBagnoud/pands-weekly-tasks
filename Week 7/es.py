@@ -22,19 +22,25 @@ if len(sys.argv) != 2:
 # This assigns the entire argv argument number 1, in this case the txt file to a variable called filename.
 filename = sys.argv[1]
 
-# This is just to prevent errors if the file does not exist.
-if not os.path.exists(filename):
-    print(f"Error. {filename } does not exist.")
-    sys.exit(1)
-
 # And this checks the file format. The best way I had to do this was with the ending and endswith function since anything
 # that's not a txt file will never end with.txt
 if not filename.endswith(".txt"):
     print(f"Warning! The {filename} is not a txt file.")
 
+# This is just to prevent errors if the file does not exist.
+elif not os.path.exists(filename):
+    print(f"Error. {filename } does not exist.")
+    sys.exit(1)
+
 # Then the rest opens the file with the read function enabled.
-with open(filename, "r") as file:
-    text = file.read()
+try:
+    with open(filename, "r") as file:
+        text = file.read()
+
+# Came back to this task to add this except as it bypasses the error one gets and shows if the file is not found. Also reordered the two ifs above to make sense
+# Changed one if to elif to make it conditional.
+except FileNotFoundError:
+    sys.exit(1)
 
 # A simple .count to count the number of e's
 e_count = text.count("e")
