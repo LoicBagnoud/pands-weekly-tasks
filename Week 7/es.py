@@ -2,6 +2,8 @@
 es.py
 
 The objective of this program is to read in a text file and outputs the number of e's it contains.
+Update - Added the except FileNotFoundError as it bypasses the error one gets and shows if the file is not found. 
+Also reordered the two ifs above to make sense. Changed one if to elif to make it conditional
 
 Author: Loic Bagnoud
 '''
