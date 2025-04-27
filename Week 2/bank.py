@@ -3,6 +3,7 @@ bank.py
 
 The objective of this program is to prompt the user to input two ammounts in cents and sum up the results, 
 printing out the result in a human readable format with a euro sign and decimal point between the euro and cent of the amount
+Update - It's been updated to prevent the user from using strings like dots or commas.
 
 author: Loic Bagnoud
 '''

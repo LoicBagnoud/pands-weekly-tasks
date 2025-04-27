@@ -12,13 +12,14 @@ Author: Loic Bagnoud
 # The first part is a simple prompt for the user to input their number.
 collatz_attempt = int(input("Please input your collatz attempted number: "))
 
-# I created a list for the collatz calculations to be stored. I will print out this list later on. (Made a small correction here to account for the user using 1.)
-collatz_list = [collatz_attempt]
-
-# I created this while loop to make sure that the user does not input a negative nummber or a 0 (since a 0 can't even initiate the loop)
+# I created this while loop to make sure that the user does not input a negative nummber or a 0 (since a 0 can't even initiate the loop). I made sure the loop is in place before
+# the list because otherwise, any negative number is added to the list. We need to make sure no unwanted numbers get added in. 
 while collatz_attempt < 1:
     print("Please make sure you do not use 0 or a negative number. Use a positive number")
     collatz_attempt = int(input("Please input your collatz attempted number: "))
+
+# I created a list for the collatz calculations to be stored. I will print out this list later on. (Made a small correction here to account for the user using 1.)
+collatz_list = [collatz_attempt]
 
 # I had to figure out how to check if something was an even number. This helps with that. At first I tried creating multiple alternative variables but I ended up confused with it,
 # so I tried just working on the same variable as everything just gets stored in the same place. 
